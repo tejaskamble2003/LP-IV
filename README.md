@@ -34,3 +34,6 @@ b. Freeze parameters (weights) in model’s lower convolutional layers
 c. Add custom classifier with several layers of trainable parameters to model
 d. Train classifier layers on training data available for task
 e. Fine-tune hyper parameters and unfreeze more layers as needed
+
+
+https://chatgpt.com/share/67282581-cd8c-800b-b300-da8928b36ad0
