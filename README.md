@@ -22,8 +22,15 @@ c. Encoder converts it into latent representation
 d. Decoder networks convert it back to the original input
 e. Compile the models with Optimizer, Loss, and Evaluation Metrics
 
-6. Implement the Continuous Bag of Words (CBOW) Model. Stages can be:
+5. Implement the Continuous Bag of Words (CBOW) Model. Stages can be:
 a. Data preparation
 b. Generate training data
 c. Train model
 d. Output
+
+6. Object detection using Transfer Learning of CNN architectures
+a. Load in a pre-trained CNN model trained on a large dataset
+b. Freeze parameters (weights) in model’s lower convolutional layers
+c. Add custom classifier with several layers of trainable parameters to model
+d. Train classifier layers on training data available for task
+e. Fine-tune hyper parameters and unfreeze more layers as needed
